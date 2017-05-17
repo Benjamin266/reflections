@@ -14,6 +14,8 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
+Visualizations help by understanding parent commits to each other and using branch names
+In order to get the detached HEAD message you need to use "git checkout" on a commit id, then "git checkout -b new_branch_name.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
