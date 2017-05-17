@@ -1,0 +1,24 @@
+﻿What happens when you initialize a repository? Why do you need to do it?
+-When you initialize a repository you are creating a .git file, which is a hidden file. This file is used to store your git commits
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+-The staging area holds the files you would like to have commited into your working directory. A working directory already
+contains commited files. I think the staging area is useful because you can commit multiple files at once or one file at a time.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+-You can create different branches, ie. master
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+Visualizations help by understanding parent commits to each other and using branch names
+In order to get the detached HEAD message you need to use "git checkout" on a commit id, then "git checkout -b new_branch_name.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
